@@ -34,6 +34,6 @@ def workdir_view(request):
     # по аналогии с `time_view`, напишите код,
     # который возвращает список файлов в рабочей 
     # директории
-    list_files = os.listdir(path='dj-homeworks/')
+    list_files = os.listdir(path='dj-homeworks/1.1-first-project/first_project')
     files_with_breaks = '<br>'.join(list_files)
     return HttpResponse(files_with_breaks)
