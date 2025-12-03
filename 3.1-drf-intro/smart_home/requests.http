@@ -19,6 +19,17 @@ Content-Type: application/json
 
 ###
 
+# создание еще одного датчика
+POST {{baseUrl}}/sensors/
+Content-Type: application/json
+
+{
+  "name": "xiaomi",
+  "description": "Датчик в спальне"
+}
+
+###
+
 # обновление датчика
 PATCH {{baseUrl}}/sensors/1/
 Content-Type: application/json
