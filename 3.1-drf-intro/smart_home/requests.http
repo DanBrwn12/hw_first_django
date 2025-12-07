@@ -31,11 +31,12 @@ Content-Type: application/json
 ###
 
 # обновление датчика
-PATCH {{baseUrl}}/sensors/1/
+PATCH {{baseUrl}}/sensors/4/
 Content-Type: application/json
 
 {
-  "description": "Перенес датчик на балкон"
+  "description": "Перенес датчик на балкон",
+  "temperature": 22
 }
 
 ###
